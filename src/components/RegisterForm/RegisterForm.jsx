@@ -49,7 +49,6 @@ import css from './registerForm.module.css';
                                 pattern ="[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}$"
                                 required
                                 placeholder='example@mail.com'
-                                autoComplete="off"
                             />
                         </label>
 

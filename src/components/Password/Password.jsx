@@ -29,7 +29,6 @@ export const Password = (prop) => {
                     required
                     title= "Password must contain minimum 8 maximum 15 symbols, at least one letter and, at least one number."
                     placeholder='password' 
-                      
                 />
             
                 <button className={css.eyeBtn} 
