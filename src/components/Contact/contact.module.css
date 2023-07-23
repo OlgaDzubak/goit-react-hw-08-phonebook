@@ -1,0 +1,66 @@
+.contact{
+    font-size: 15px;
+    height: 18px;
+    min-width: 350px;
+}
+.contact:hover{
+    background-color:rgb(92, 185, 132);
+    border-bottom: 1px solid gray;
+}
+.contact .contact_div{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.contact .contact_p_name{
+    font-weight: 700;
+    font-size: 11px;
+    width: 150px;
+}
+.contact .contact_a_phone{
+    text-decoration: none;
+    width: 80px;
+    font-size: 11px;
+    color: black;
+}
+.contact .delete_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    padding: 5px;
+    width: 12px;
+    height: 12px;
+    cursor: pointer;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 1;    
+}
+
+@media screen and (min-width: 650px) {
+    .contact .contact_p_name,
+    .contact .contact_a_phone{
+        font-size: 13px;
+        }
+    .contact .delete_btn{
+        margin-right: 25px;
+    }
+}
+
+@media screen and (min-width: 650px) and (max-width: 749.98px) {
+    .contact .contact_p_name{
+        width: 200px;
+    }
+    .contact .contact_a_phone{ 
+        width: 90px;
+    }
+}
+
+@media screen and (min-width:750px) {
+    .contact .contact_p_name{
+        width: 200px;
+    }
+    .contact .contact_a_phone{
+        width: 120px;
+    }
+}

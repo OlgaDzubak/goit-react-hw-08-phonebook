@@ -1,0 +1,23 @@
+.nav{
+  display: flex;
+  flex-direction: column;
+}
+.nav_link {
+    display: inline-block;
+    text-decoration: none;
+    padding: 12px;
+    font-weight: 700;
+    font-size: 15px;
+    color: #2a363b;
+  }
+  .nav_link:hover,
+  .nav_link.focus{
+    color: black;
+    box-shadow: 1px 1px 1px 1px gray;
+  }
+
+  @media screen and (min-width: 540px) {
+    .nav{
+      flex-direction: row;
+    }
+  }

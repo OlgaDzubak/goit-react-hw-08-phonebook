@@ -1,0 +1,13 @@
+.auth_link {
+  display: inline-block;
+  text-decoration: none;
+  padding: 12px;
+  font-weight: 700;
+  font-size: 15px;
+  color: #2a363b;
+}
+.auth_link:hover,
+.auth_link:focus{
+  color: black;
+  box-shadow: 1px 1px 1px 1px gray;
+}

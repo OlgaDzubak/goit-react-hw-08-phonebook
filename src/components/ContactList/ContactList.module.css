@@ -1,0 +1,24 @@
+.contacts_div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 85vh;
+}
+
+.contact_list_div{
+    overflow-y:auto;
+}
+
+.contact_list_div .contact_list{
+    list-style: decimal;
+    display: flex;
+    flex-direction: column;
+    row-gap: 7px;    
+} 
+
+@media screen and  (min-width: 650px){
+    .contacts_div{
+        align-items: flex-start;
+    }
+}

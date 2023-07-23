@@ -1,0 +1,66 @@
+@import-normalize; /* bring in normalize.css styles */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box; /*Задаємо для всіх елементів формулу розрахунку розмірів як border-box */
+} 
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-y: auto;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+p{
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 35px;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 25px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+a {
+text-decoration: none;
+}
+.contacts_section{
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  align-items: center;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 650px){
+  body {
+    overflow-y: hidden;
+  }
+  .contacts_section{
+    flex-direction: row;
+    column-gap: 30px;
+    padding-bottom: 50px;
+  }
+  
+}
